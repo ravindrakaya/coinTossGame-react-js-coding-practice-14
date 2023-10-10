@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  border-radius: 10px;
+  background-color: #ffffff;
+  min-height: 60vh;
+  min-width: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.card-heading {
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 500;
+}
+.card-para {
+  font-family: 'Roboto';
+  color: #334155;
+  font-weight: 500;
+}
+.image {
+  width: 150px;
+  height: 150px;
+}
+.button {
+  font-family: 'Roboto';
+  color: #a35200;
+  background-color: #f9d423;
+  border: none;
+  border-radius: 5px;
+  height: 20px;
+  width: 90px;
+  margin-top: 15px;
+}
+.toss-results {
+  color: #334155;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+@media all and (min-width: 768px) {
+  .toss-result-container {
+    display: flex;
+    align-items: center;
+  }
+  .toss-results {
+    margin-right: 15px;
+  }
+}
